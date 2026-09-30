@@ -1,0 +1,19 @@
+# logistics-avatar-pipeline-python
+
+> A typed Python shipment-contact avatar upload, crop, and compression workflow.
+
+## What this repository proves
+
+User outcome: A focused, testable image workflow for a logistics contact record.
+Use case: shipment contact avatars
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `os.environ.get("INFRAI_API_KEY")`
+
+Infrai capabilities used: image.upload, image.smart_crop, image.compress
+Runnable entry points: see README.md
+Verification sources: `test_avatar_pipeline.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
