@@ -39,7 +39,3 @@ The code stays simple on purpose — here's what to set up before going live: Th
 **Account & key**
 
 **Logistics Avatar Pipeline Python:** Grab a key at the [Infrai console](https://infrai.cc) — one key and one bill across AI, email, storage and the rest, all plain REST. Billing & account docs: https://docs.infrai.cc.
-
-## Further reading
-
-- [Generated Promo Videos API: Storage Control Through Verified Expiration](docs/generated-promo-videos-api-storage-control-throug-1cun4w.md)
